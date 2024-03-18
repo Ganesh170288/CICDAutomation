@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="5" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-18T16:43:58 IST" name="Suite" finished-at="2024-03-18T16:43:58 IST" duration-ms="101">
+    <groups>
+    </groups>
+    <test started-at="2024-03-18T16:43:58 IST" name="Regression Test" finished-at="2024-03-18T16:43:58 IST" duration-ms="101">
+      <class name="test.Day3">
+        <test-method is-config="true" signature="preRequiste()[pri:0, instance:test.Day3@45c7e403]" started-at="2024-03-18T16:43:58 IST" name="preRequiste" finished-at="2024-03-18T16:43:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequiste -->
+        <test-method signature="AppiumLoginCarLogin()[pri:0, instance:test.Day3@45c7e403]" started-at="2024-03-18T16:43:58 IST" name="AppiumLoginCarLogin" finished-at="2024-03-18T16:43:58 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppiumLoginCarLogin -->
+        <test-method signature="WebLoginCarLogin()[pri:0, instance:test.Day3@45c7e403]" started-at="2024-03-18T16:43:58 IST" name="WebLoginCarLogin" finished-at="2024-03-18T16:43:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLogin -->
+      </class> <!-- test.Day3 -->
+      <class name="test.Day4">
+        <test-method signature="AppiumLoginHomeLogin()[pri:0, instance:test.Day4@22ff4249]" started-at="2024-03-18T16:43:58 IST" name="AppiumLoginHomeLogin" finished-at="2024-03-18T16:43:58 IST" duration-ms="14" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at test.Day4.AppiumLoginHomeLogin(Day4.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AppiumLoginHomeLogin -->
+        <test-method signature="WebLoginHomeLogin(java.lang.String,java.lang.String)[pri:0, instance:test.Day4@22ff4249]" started-at="2024-03-18T16:43:58 IST" name="WebLoginHomeLogin" data-provider="getData" finished-at="2024-03-18T16:43:58 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ganesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLogin -->
+        <test-method signature="WebLoginHomeLogin(java.lang.String,java.lang.String)[pri:0, instance:test.Day4@22ff4249]" started-at="2024-03-18T16:43:58 IST" name="WebLoginHomeLogin" data-provider="getData" finished-at="2024-03-18T16:43:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Radhika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLogin -->
+        <test-method signature="WebLoginHomeLogin(java.lang.String,java.lang.String)[pri:0, instance:test.Day4@22ff4249]" started-at="2024-03-18T16:43:58 IST" name="WebLoginHomeLogin" data-provider="getData" finished-at="2024-03-18T16:43:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thaswika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLogin -->
+        <test-method signature="APILoginHomeLogin()[pri:0, instance:test.Day4@22ff4249]" started-at="2024-03-18T16:43:58 IST" name="APILoginHomeLogin" finished-at="2024-03-18T16:43:58 IST" depends-on-methods="test.Day4.AppiumLoginHomeLogin, test.Day4.WebLoginHomeLogin" duration-ms="1" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method test.Day4.APILoginHomeLogin() on instance test.Day4@22ff4249 depends on not successfully finished methods 
+[test.Day4.AppiumLoginHomeLogin() on instance test.Day4@22ff4249
+test.Day4.WebLoginHomeLogin() on instance test.Day4@22ff4249]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method test.Day4.APILoginHomeLogin() on instance test.Day4@22ff4249 depends on not successfully finished methods 
+[test.Day4.AppiumLoginHomeLogin() on instance test.Day4@22ff4249
+test.Day4.WebLoginHomeLogin() on instance test.Day4@22ff4249]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:157)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeLogin -->
+      </class> <!-- test.Day4 -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Suite -->
+</testng-results>
